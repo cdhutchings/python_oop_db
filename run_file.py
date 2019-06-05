@@ -20,4 +20,8 @@ northwind_db = ConnMsSql()
 
 #northwind_db.print_all_products()
 
-northwind_db.avg_unit_price()
+#northwind_db.avg_unit_price()
+
+northwind_db.company_name("Rattlesnake")
+print("\n")
+northwind_db.cust_country("UK")
